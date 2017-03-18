@@ -1,0 +1,43 @@
+form {
+    background-color: #213b50;
+    font-style: normal;
+    padding: 20px;
+  
+}
+
+* {
+    font-size: 15px;
+    color: white;
+
+}
+
+
+label {
+    color: #ffffff;
+}
+
+input, select, textarea {
+    background-color: #4e708c;
+    border: 0;
+}
+
+input[value="SEND"] {
+    background: lime;
+    color: white;    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+      
+}
+
+textarea:focus, select:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+input[type="text"], input[type="email"], select[name="select"], textarea {
+    width: 315px;    
+}
+
